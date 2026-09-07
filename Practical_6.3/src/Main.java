@@ -11,5 +11,7 @@ public class Main {
         Student student = new Student(name, id, marks);
         StudentDAO studentDAO = new StudentDAO();
         studentDAO.insert(student);
+        PrintAll p = new PrintAll();
+        p.print();
     }
 }
